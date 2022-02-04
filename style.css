@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Crimson Pro', serif;
+  font-size: 22px;
+  background-color: #ffdd90;
+  line-height: 1.5;
+  width: 500px;
+  margin: auto;
+}
+
+form {
+  background: #FF9966;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  border-style: groove;
+  margin: 0px 0px 60px 0px;
+}
+
+#title {
+  text-align: center;
+  margin: 30px 10px 0px 0px;
+}
+
+#description {
+  margin: 10px 0px 0px 0px;
+  text-align: center;
+}
+
+#name {
+  border-style: none;
+  padding: 0.4rem;
+  background-color: blanchedalmond;
+}
+
+#email {
+  border-style: none;
+  padding: 0.4rem;
+  background-color: blanchedalmond;
+}
+
+#number {
+  border-style: none;
+  padding: 0.4rem;
+  background-color: blanchedalmond;
+}
+
+#dropdown {
+  border-style: none;
+  width: 350px;
+  height: 2.2rem;
+  background-color: blanchedalmond;
+}
+
+textarea {
+  background-color: blanchedalmond;
+  margin: 0px 0px 0px -5px;
+}
+
+#submit {
+  color: black;
+  background: blanchedalmond;
+  padding: 1rem;
+  border: 2px solid;
+  cursor: pointer;
+  width: 37%;
+  margin-left: 33%;
+  font-size: 16px;
+  margin: 10px 0px 0px 120px;
+}
+
+#submit:hover {
+  color: #000000;
+  background: #ffdd90;
+  box-shadow: 0 4px 20px #ffdd90;
+  transition: all 0.2s ease;
+  border: 2px solid #000;
+}
+
+.cuadro {
+  display: block;
+  width: 80%;
+  height: 1.4rem;
+  border-radius: 2rem;
+}

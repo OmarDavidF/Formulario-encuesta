@@ -1,0 +1,74 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+  <title>Formulario Omar Forero</title>
+</head>
+
+<header>
+  <h1 id="title">Encuesta Estudiantil</h1>
+</header>
+
+<body>
+
+<p id="description">Queremos determenar de que forma aprendes mejor !</p><br>
+
+<form method="post" action="#" id="survey-form">
+  <p>
+    <label for="name" id="name-label"><b>Nombre:</b></label>
+    <input id="name" type="text" name="name" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Juan Pérez" class="cuadro"
+           maxlength="40" required><br>
+    <label for="email" id="email-label"><b>Email:</b></label>
+    <input id="email" type="Email" name="email" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ejemplo@hotmail.com" class="cuadro"
+           maxlength="40" required><br>
+    <label for="number" id="number-label"><b>Edad:</b></label>
+    <input id="number" type="number" name="number" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Ingrese su edad" min="18"
+           max="30" class="cuadro" maxlength="40" required><br>
+  <hr>
+  <br>
+  <p><b>Qué area de aprendizaje le parece mejor:</b></p>
+  <label for="dropdown" id="seleccionar">Seleccione un tipo:</label>
+  <select id="dropdown" class="cuadro">
+    <option value="Aprendizaje implícito">&nbsp;&nbsp;&nbsp;&nbsp;Aprendizaje implícito</option>
+    <option value="Aprendizaje explícito">&nbsp;&nbsp;&nbsp;&nbsp;Aprendizaje explícito</option>
+    <option value="Aprendizaje asociativo">&nbsp;&nbsp;&nbsp;&nbsp;Aprendizaje asociativo</option>
+    <option value="Aprendizaje no asociativo">&nbsp;&nbsp;&nbsp;&nbsp;Aprendizaje no asociativo</option>
+    <option value="Aprendizaje significativo">&nbsp;&nbsp;&nbsp;&nbsp;Aprendizaje significativo</option>
+    <option value="Aprendizaje cooperativo">&nbsp;&nbsp;&nbsp;&nbsp;Aprendizaje cooperativo</option>
+    <option value="Aprendizaje emocional">&nbsp;&nbsp;&nbsp;&nbsp;Aprendizaje emocional</option>
+    <option value="Aprendizaje observacional">&nbsp;&nbsp;&nbsp;&nbsp;Aprendizaje observacional</option>
+  </select>
+  <br>
+  <label for="tipo" id="tipo"><b>Recomendaria su elección:</b></label>
+  <ul>
+    <input type="radio" id="si" name="eleccion" value="si">
+    <label for="tipo">Si</label><br>
+    <input type="radio" id="no" name="eleccion" value="no">
+    <label for="tipo">No</label><br>
+    <input type="radio" id="no estoy seguro" name="eleccion" value="no estoy seguro">
+    <label for="tipo">No estoy seguro</label><br><br>
+  </ul>
+  <label for="materia"><b>Qué area de conocimiento le interesa mas:</b></label>
+  <ul>
+    <input type="checkbox" id="matematicas" name="matematicas" value="matematicas">
+    <label for="matematicas">Matemáticas</label><br>
+    <input type="checkbox" id="astronomia" name="astronomia" value="astronomia">
+    <label for="astronomia">Astronomía</label><br>
+    <input type="checkbox" id="biologia" name="biologia" value="biologia">
+    <label for="biologia">Biología</label><br>
+    <input type="checkbox" id="biomedicina" name="biomedicina" value="biomedicina">
+    <label for="biomedicina">Biomedicina</label><br>
+    <input type="checkbox" id="ciencias_ambientales" name="ciencias_ambientales" value="ciencias_ambientales">
+    <label for="ciencias_ambientales">Ciencias Ambientales</label><br><br>
+  </ul>
+  <label id="textarea"><b>Comentarios adicionales.</b></label><br>
+  <textarea id="textarea" name="comentario" rows="15" cols="50">
+       </textarea>
+  <br><br>
+  <input id="submit" type="submit" value="Enviar encuesta">
+  </p>
+</form>
+</body>
+</html>
